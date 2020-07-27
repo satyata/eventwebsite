@@ -1,0 +1,69 @@
+* {box-sizing: border-box;}
+/*form section*/
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size:20px;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/*submit button */
+.entry {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-size:25px;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom:50px;
+}
+
+.entry:hover {
+  opacity: 1;
+}
+
+#display {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#display td, #display th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#display tr:nth-child(even){background-color: #f2f2f2;}
+
+#display tr:hover {background-color: #ddd;}
+
+#display th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+}
