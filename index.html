@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Travelingo</title>
+
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+
+<h1>Travel Website</h1>
+
+<ul>
+  <li><a href="#home" onclick="fun1('home')">Home</a></li>
+  <li><a href="#form" onclick="fun1('form')">Registration</a></li>
+  <li><a href="#detail" onclick="fun1('detail')">Details</a></li>
+</ul>
+
+</header>
+
+<div id="home">
+
+<h2>Photo Gallery</h2>
+
+<div class="wrapper">
+<div class="media">
+<div class="layer">
+
+    <p>Las Vegas</p>
+  </div>
+<img src="img/lasvegas.jpg" alt="Las Vegas" />
+</div>
+ <div class="media">
+<div class="layer">
+    <p>Amsterdam</p>
+  </div>
+<img src="img/amsterdam.jpg" alt="Amsterdam" />
+</div>
+   <div class="media">
+<div class="layer">
+    <p>Venice</p>
+  </div>
+<img src="img/venice.jpg" alt="Venice" />
+</div>
+</div>
+
+<h2>Welcome to our Travel Website</h2>
+<p>Want to travel to this the amazing place and have 
+a whale of time. Kindly fill the form and you can see the details
+from the detail link in the navigation.<br><b>Don't miss the opporunity
+<i>grab your seat now!!</i></b></p>
+
+<!--footer-->
+<footer class="footer-distributed">
+
+<div class="footer-right">
+<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+<a href="https://www.instagram.com/?hl=en"><i class="fa fa-twitter"></i></a>
+<a href="https://twitter.com/?lang=en-in"><i class="fa fa-instagram"></i></a>
+</div>
+
+<div class="footer-left">
+<p class="footer-links">
+
+<a class="link-1" href="#">Home</a>
+<a href="#">Blog</a>
+<a href="#">About</a>
+<a href="#">Faq</a>
+<a href="#">Contact</a>
+
+</p>
+<p>Travelingo &copy; 2020</p>
+</div>
+</footer> 
+</div>
+
+<div id="form">
+
+<h2>Register Form</h2>
+
+<div id="container">
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input id="name" class="input-field" type="text" placeholder="username">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-phone icon"></i>
+    <input class="input-field" type="tel" placeholder="123456789">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input id="email" class="input-field" type="email" placeholder="email">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input id="phone" class="input-field" type="password" placeholder="password">
+  </div>
+
+  <button type="submit" class="entry">Register</button>
+</form>
+</div>
+</div>
+
+<div id="detail">
+
+<h2>Registration Details</h2>
+
+<table id="display">
+<tr>
+  <th>Username</th>
+  <th>Email</th>
+  <th>Phone No</th>
+   </tr>
+</table>
+</div>
+
+<script src="js/detail.js"></script>
+
+</body>
+</html>
